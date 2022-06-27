@@ -1,0 +1,80 @@
+.testbox{
+  background-color: grey;
+  padding: 15 px
+  text-align: center;
+  margin: 20px auto;
+  width: 110px
+}
+#texto{
+fond: bold 30px Tahoma;
+width: 100%;
+text-align: center;
+}
+
+.namebox{
+  background-color: grey;
+  padding: 15 px
+  text-align: center;
+  margin: 20px auto;
+  width: 400px
+}
+#bnombre{
+fond: bold 30px Tahoma;
+width: 100%;
+}
+
+.apellidobox{
+  background-color: grey;
+  padding: 15 px
+  text-align: center;
+  margin: 20px auto;
+  width: 400px
+}
+#bapellido{
+fond: bold 30px Tahoma;
+width: 100%;
+}
+
+.codigobox{
+  background-color: grey;
+  padding: 15 px
+  text-align: center;
+  margin: 20px auto;
+  width: 400px
+}
+#bcodigo{
+fond: bold 30px Tahoma;
+width: 100%;
+}
+
+.telefonobox{
+  background-color: grey;
+  padding: 15 px
+  text-align: center;
+  margin: 20px auto;
+  width: 400px
+}
+#btelefono{
+fond: bold 30px Tahoma;
+width: 100%;
+}
+
+.enviarbox{
+  background-color: grey;
+  padding: 15 px
+  text-align: center;
+  margin: 10px auto;
+  width: 45px
+}
+
+.smsbox{
+  background-color: grey;
+  padding: 15 px
+  text-align: center;
+  margin: 20px auto;
+  width: 400px
+}
+#smstexto{
+fond: bold 30px Tahoma;
+width: 100%;
+}

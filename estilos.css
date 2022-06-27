@@ -1,0 +1,476 @@
+*{
+  box-sizing: border-box;
+
+}
+html{
+  scroll-behavior: smooth; /*hace que el scrool sea mas lento*/
+}
+
+body{
+      background-color: white;
+      color:white;
+      margin:0;
+  }
+
+header{
+  height: 100px;
+  background-color:skyblue; /*color de la barra*/
+  padding: 10px; /*este es la barra azul de se agranda sola*/
+  display: flex; /*aca las letras se acomodan diseño responsibe*/
+  align-items: center;/*alinea el contenido centrado*/
+  justify-content:space-between; /*manda el contenido a la derecha todo
+                                  esto es la barra de arriba*/
+  fon
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px; /*espaciado en la barra de inico*/
+}
+
+header a:hover{
+  background-color:gray /*color cuando hace click*/;
+}
+
+#hero{
+    min-height: 90vh; /*esapcio de cada contenido*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(
+      180deg,
+      rgba(0,0,0,0.5), /* opacidad*/
+      rgba(0,0,0,0.5)
+      ),
+    url(https://static.wixstatic.com/media/11062b_dbd82904e3e447898acbf7c3632ee55b~mv2.jpg/v1/fill/w_2500,h_1666,al_c/11062b_dbd82904e3e447898acbf7c3632ee55b~mv2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+}
+h3{
+  text-align: center;
+  padding: 5%;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+#item1{ /*download ponerlo al centro*/
+  text-align: center;
+  font-style: normal;
+  text-decoration: none;
+  background-color: red;
+
+}
+
+#info{
+  display: flex; /*puso a la mitad*/
+padding: 100px,10%;
+}
+
+@media (max-width:700px) { /*parte responsiva lo hace que baje la imagen*/
+  #info{
+    flex-direction: column-reverse;
+  }
+
+
+}
+#info div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: black; /*color de negro startup*/
+  font-style:normal;
+  font-size: 20px;
+}
+#info img{
+  display: block;
+  border-radius: 20px;
+  min-height:400px;
+  width: auto;
+}
+
+.ventajas{
+  margin-top: 100;
+  display: flex;
+  padding: 25px;
+  color:black;
+  display: flex;
+}
+.div1{
+}
+.div3{
+}
+.div2{
+  text-align: center;
+  padding: 25px;
+    display: flex;
+  display: block;
+
+}
+.div4{
+  text-align: center;
+  padding: 25px;
+    display: flex;
+  display: block;
+
+}
+
+
+
+
+
+
+
+
+
+#niña{
+  min-height: 110vh; /*esapcio de cada contenido*/
+  display: flex;
+
+background-image:url(ventajas.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Cartillas de presentacion niña*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+  font-size: 100%;
+}
+.title-cards{
+
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+  font-size: 100%;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+
+
+#alianzas{
+  min-height: 80vh; /*esapcio de cada contenido*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: white;
+}
+.alianza_text{
+  color: black;
+top:  inherit;
+  display: flex;
+  position: absolute;
+}
+.mater1{
+  text-align: center;
+  padding: 25px;
+    display: flex;
+  display: block;
+}
+.galeria_m{
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+}
+
+
+#testimonios{
+  min-height: 145vh; /*esapcio de cada contenido*/
+
+  justify-content: center;
+  align-items: center;
+background-image:url(testimonios.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+/*parte de testimonios decoracion*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+#contactanos{
+  min-height: 50vh; /*esapcio de cada contenido*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: grey;
+}
+
+#Registrate{
+  min-height: 110vh; /*esapcio de cada contenido*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-image:url(registrate.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+/*CONTACTANOS TEXTO*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #e39403;
+}
+
+
+
+
+
+footer{
+  text-align: end;
+  padding: 50px,25px,10px,0px;
+
+}
+.insta{
+  justify-content: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+footer {
+  background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgba(0,191,255,1) 90% );
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
